@@ -1,0 +1,40 @@
+{
+  "title": {
+    "text": "yul님, 이런 상품은 어때요?",
+    "icon_url": "https://github.com/jeonyul00/practice_android-studio/assets/90760450/d8bb95a0-5d98-42ed-9640-b2335a7dfcc2"
+  },
+  "top_banners": [
+    {
+      "background_image_url": "https://github.com/jeonyul00/practice_android-studio/assets/90760450/1262f7d2-c3d3-4868-af90-1fd7cd9cd400",
+      "badge": {
+        "label": "기획전",
+        "background_color": "#52514d"
+      },
+      "label": "따스한 겨울\n준비하기",
+      "product_detail": {
+        "brand_name": "twg. official",
+        "label": "캐시미어 100% 터틀넥 스웨터",
+        "discount_rate": 9,
+        "price": 102000,
+        "thumbnail_image_url": "https://github.com/jeonyul00/practice_android-studio/assets/90760450/4300fdf1-ddcb-4883-bcf2-d206c10c4a10",
+        "product_id": "FW-twg-sweater-1"
+      }
+    },
+    {
+      "background_image_url": "https://github.com/jeonyul00/practice_android-studio/assets/90760450/9b62cbb8-6b88-4688-857f-8e948618d73f",
+      "badge": {
+        "label": "기획전",
+        "background_color": "#967a6d"
+      },
+      "label": "나만의\n홈 오피스",
+      "product_detail": {
+        "brand_name": "Desk Shop",
+        "label": "슬림 데스크 800",
+        "discount_rate": 16,
+        "price": 160000,
+        "thumbnail_image_url": "https://github.com/jeonyul00/practice_android-studio/assets/90760450/37c733e5-af62-4855-80f2-13bfc802be89",
+        "product_id": "desk-1"
+      }
+    }
+  ]
+}

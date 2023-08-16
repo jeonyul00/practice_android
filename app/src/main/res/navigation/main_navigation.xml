@@ -7,7 +7,7 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.jeonyul.shoppi_android.HomeFragment"
-        android:label="HomeFragment" >
+        android:label="HomeFragment">
         <action
             android:id="@+id/action_home_to_product_detail"
             app:destination="@id/navigation_product_detail" />
