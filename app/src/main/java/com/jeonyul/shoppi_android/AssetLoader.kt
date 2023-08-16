@@ -17,7 +17,6 @@ class AssetLoader {
             val bytes = ByteArray(size)
             inputStream.read(bytes)
             String(bytes)
-
         }
     }
 }
