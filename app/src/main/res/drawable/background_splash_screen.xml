@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 여러 유형의 drawable을 한 파일에서 정의해야 할 경우 layer-list 태그에서 item 태그로 구성 -->
+    <!-- 위에서 부터 아래로 레이어 됨 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="315"
+                android:endColor="@color/shoppi_gradient_purple"
+                android:startColor="@color/shoppi_gradient_pink"
+                android:type="linear" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/img_logo" />
+    </item>
+</layer-list>

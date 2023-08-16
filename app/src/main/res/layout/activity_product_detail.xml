@@ -9,13 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/shoppi_white">
-        <!-- android:layout_width="0dp" : 지정된 constraint 만큼 늘림-->
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_product_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|enterAlways"
             app:navigationIcon="@drawable/ic_gnb_back" />
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView
@@ -26,6 +27,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <!-- app:layout_constraintDimensionRatio="w, 1:1" : width 기준 1:1 비율로 높이 수정 -->
             <ImageView
                 android:id="@+id/iv_product_thumbnail"
@@ -118,7 +120,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view_divider_product" />
 
-
             <!-- android:scaleType="centerCrop" : 이미지가 뷰사이즈보다 클 때는 이미지의 중앙에 맞추고, 초과한 부분은 자름, 만약 이미지의 크기가 뷰 사이즈보다 작을 때, 가로 세로 중 가장 큰 길이를 기준으로 확대 후 초과하는 부분을 크롭  -->
             <ImageView
                 android:id="@+id/iv_product_detail_image"
@@ -137,6 +138,5 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.core.widget.NestedScrollView>
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
