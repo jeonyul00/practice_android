@@ -141,4 +141,5 @@
     <style name="TextCaption2.Grey04" >
         <item name="android:textColor">@color/shoppi_grey_04</item>
     </style>
+
 </resources>
